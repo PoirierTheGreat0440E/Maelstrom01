@@ -1,0 +1,13 @@
+.formulaire2{
+    border:1px black solid;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    width:30%;
+    padding:15px;
+    margin:0 auto;
+}
+
+.formulaire2 input{
+    margin:15px 0;
+}

@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+}
+
+.navigation_barre{
+    width:100%;
+    border-bottom:1px black solid;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation_barre a{
+    text-decoration: none;
+    font-size:18px;
+    align-self: center;
+    margin:0 15px;
+    color:black;
+}
+
+.logo{
+    margin:0;
+    font-size:30px;
+    letter-spacing: 5px;
+    font-variant:small-caps;
+    margin-bottom:5px;
+}
+
+.contenu{
+    width:100%;
+}
+
+#landingZone{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    margin-top:10px;
+}
+
+#landingZone article{
+    margin-left:10px;
+    width:30%;
+    border:1px black solid;
+    background-color:white;
+    padding:5px;
+}
+
+.partie_accueil{
+    background-color: gainsboro;
+}
